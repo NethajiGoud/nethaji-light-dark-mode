@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.background {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dark-Mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.Light-Mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
